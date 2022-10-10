@@ -1,0 +1,8 @@
+﻿  userResponse.c
+C:\Users\User\source\repos\processProject\processProject\userResponse.c(28,4): warning C4013: 'resetSnapshot' undefined; assuming extern returning int
+C:\Users\User\source\repos\processProject\processProject\userResponse.c(43,62): warning C4047: 'function': 'ProcessDetails *' differs in levels of indirection from 'int'
+C:\Users\User\source\repos\processProject\processProject\userResponse.c(43,55): warning C4024: 'mergeSnaps': different types for formal and actual parameter 3
+C:\Users\User\source\repos\processProject\processProject\userResponse.c(79,64): warning C4047: 'function': 'ProcessDetails *' differs in levels of indirection from 'int'
+C:\Users\User\source\repos\processProject\processProject\userResponse.c(79,57): warning C4024: 'mergeSnaps': different types for formal and actual parameter 3
+C:\Users\User\source\repos\processProject\processProject\userResponse.c(11,1): warning C4047: 'initializing': 'char' differs in levels of indirection from 'void *'
+  processProject.vcxproj -> C:\Users\User\source\repos\processProject\x64\Debug\processProject.exe
