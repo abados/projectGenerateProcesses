@@ -1,0 +1,35 @@
+﻿  DataStruct.c
+  createSnap.c
+C:\Users\User\source\repos\processProject\processProject\createSnap.c(11,70): warning C4133: '=': incompatible types - from 'SnapShot *' to 'ProcessDetails *'
+C:\Users\User\source\repos\processProject\processProject\createSnap.c(37,3): warning C4033: 'readProcessess' must return a value
+C:\Users\User\source\repos\processProject\processProject\createSnap.c(99,20): warning C4133: 'return': incompatible types - from 'ProcessDetails *' to 'SnapShot *'
+C:\Users\User\source\repos\processProject\processProject\createSnap.c(63,9): warning C4101: 'wDllName': unreferenced local variable
+C:\Users\User\source\repos\processProject\processProject\createSnap.c(64,8): warning C4101: 'regularCharArr': unreferenced local variable
+C:\Users\User\source\repos\processProject\processProject\createSnap.c(155,20): warning C4133: 'return': incompatible types - from 'ProcessDetails *' to 'DllNames *'
+C:\Users\User\source\repos\processProject\processProject\createSnap.c(158,101): warning C4028: formal parameter 3 different from declaration
+  freeMemory.c
+  main.c
+  saveNload.c
+C:\Users\User\source\repos\processProject\processProject\saveNload.c(78,18): warning C4047: '==': 'int' differs in levels of indirection from 'void *'
+C:\Users\User\source\repos\processProject\processProject\saveNload.c(80,11): warning C4047: 'return': 'SnapShot *' differs in levels of indirection from 'int'
+C:\Users\User\source\repos\processProject\processProject\saveNload.c(92,10): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\User\source\repos\processProject\processProject\saveNload.c(107,11): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\User\source\repos\processProject\processProject\saveNload.c(114,12): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\User\source\repos\processProject\processProject\saveNload.c(77,13): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  takeSnapshot.c
+C:\Users\User\source\repos\processProject\processProject\takeSnapshot.c(40,100): warning C4133: 'function': incompatible types - from 'ProcessDetails *' to 'int *'
+C:\Users\User\source\repos\processProject\processProject\takeSnapshot.c(42,38): warning C4133: '=': incompatible types - from 'SnapShot *' to 'ProcessDetails *'
+C:\Users\User\source\repos\processProject\processProject\takeSnapshot.c(54,37): warning C4133: '=': incompatible types - from 'SnapShot *' to 'ProcessDetails *'
+C:\Users\User\source\repos\processProject\processProject\takeSnapshot.c(56,36): warning C4133: '=': incompatible types - from 'SnapShot *' to 'ProcessDetails *'
+C:\Users\User\source\repos\processProject\processProject\takeSnapshot.c(26,1): warning C4133: 'initializing': incompatible types - from 'ProcessDetails *' to 'SnapShot *'
+C:\Users\User\source\repos\processProject\processProject\takeSnapshot.c(27,1): warning C4133: 'initializing': incompatible types - from 'ProcessDetails *' to 'SnapShot *'
+  userResponse.c
+C:\Users\User\source\repos\processProject\processProject\userResponse.c(53,62): warning C4047: 'function': 'ProcessDetails *' differs in levels of indirection from 'int'
+C:\Users\User\source\repos\processProject\processProject\userResponse.c(53,55): warning C4024: 'mergeSnaps': different types for formal and actual parameter 3
+C:\Users\User\source\repos\processProject\processProject\userResponse.c(88,64): warning C4047: 'function': 'ProcessDetails *' differs in levels of indirection from 'int'
+C:\Users\User\source\repos\processProject\processProject\userResponse.c(88,57): warning C4024: 'mergeSnaps': different types for formal and actual parameter 3
+C:\Users\User\source\repos\processProject\processProject\userResponse.c(13,1): warning C4047: 'initializing': 'char' differs in levels of indirection from 'void *'
+  Generating Code...
+C:\Users\User\source\repos\processProject\processProject\createSnap.c(101): warning C4715: 'readProcessess': not all control paths return a value
+  userRespones.h
+  processProject.vcxproj -> C:\Users\User\source\repos\processProject\x64\Debug\processProject.exe
