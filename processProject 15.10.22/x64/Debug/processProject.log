@@ -1,0 +1,5 @@
+﻿  DataStruct.c
+C:\Users\User\source\repos\processProject\processProject\DataStruct.c(145,128): warning C4029: declared formal parameter list different from definition
+C:\Users\User\source\repos\processProject\processProject\DataStruct.c(266,53): warning C4047: '!=': 'DllDictionary *' differs in levels of indirection from 'unsigned __int64'
+C:\Users\User\source\repos\processProject\processProject\DataStruct.c(69): warning C4716: 'addToSnapShotListAfterLoad': must return a value
+  processProject.vcxproj -> C:\Users\User\source\repos\processProject\x64\Debug\processProject.exe
