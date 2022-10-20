@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css?family=Work+Sans:400,600");
+body {
+  margin: 0;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 800;
+}
+
+header {
+  background: #55d6aa;
+}
+
+header::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: left;
+  padding: 10px 0;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 23px;
+
+  position: relative;
+}
+
+nav a {
+  color: #444;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: #000;
+}
+
+nav a::before {
+  content: "";
+  display: block;
+  height: 5px;
+  background-color: #444;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
+.headlins {
+  display: flex;
+  justify-content: space-around;
+}
+
+.row {
+  display: grid;
+  grid-template-areas: "left right";
+  grid-template-rows: 60px;
+  grid-template-columns: 48% 48%;
+  align-items: center;
+}
+
+.conteinerDLLlist {
+  overflow-y: auto;
+  height: 87px;
+}
+
+.trTableLeft1,
+.trTableRight1 {
+  background-color: gray;
+  text-align: center;
+}
+
+.trTableLeft2,
+.trTableRight2 {
+  background-color: lightgray;
+  text-align: center;
+  width: 50px;
+}
+
+.tableLeft {
+  border: 1px solid black;
+  grid-area: left;
+  align-self: center;
+  width: 97%;
+  margin-left: 5px;
+}
+.tableRight {
+  border: 1px solid black;
+  grid-area: right;
+  align-self: center;
+  width: 97%;
+}
+
+td {
+  padding: 0px;
+  margin: 0px;
+  max-width: 427px;
+  overflow-y: auto;
+}
