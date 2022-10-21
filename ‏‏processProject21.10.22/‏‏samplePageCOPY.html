@@ -1,0 +1,61 @@
+"<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/normalize" />
+    <link rel="stylesheet" href="style_sample.css" />
+    <title>Sample Page</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1 class="logo">Hay Abadi</h1>
+        <nav>
+          <ul>
+            <li><a href="main.html">Home</a></li>
+            <li><a href="aboutMe.html">About</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <h1 class="SampleListH1">Sample List</h1>
+    <h2 class="SampleNumandTimeH2">NUMBER: %d TIME : AT %s</h2>
+    <h3 class="ProcessListH2">Process list</h3>
+    <div class="row">
+      <table class="tableLeft">
+        <tr class="trTableLeft1">
+          <th>Process Name</th>
+          <th>Process ID</th>
+          <th>Page Fault Count</th>
+          <th>Working Set Size</th>
+          <th>Quota Page Pool Usage</th>
+          <th>Quota Peak Page Pool Usage</th>
+          <th>Page File Usage</th>
+          <th>Dll Count</th>
+          <th>Process's Dll List</th>
+        </tr>
+        <tr class="trTableLeft2">
+          <td>%s</td>
+          <td>%d</td>
+          <td>%u</td>
+          <td>%u</td>
+          <td>%u</td>
+          <td>%u</td>
+          <td>%u</td>
+          <td>%u</td>
+          <td>
+            <div class="conteinerDLLlist">
+              <table class="tableDllProcessSample">
+                <tr class="trtableDllProcessSample">
+                  <td class="tdtableDllProcessSample">%s</td>
+                </tr>
+              </table>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
