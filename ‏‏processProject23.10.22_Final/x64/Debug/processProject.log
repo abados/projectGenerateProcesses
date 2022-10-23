@@ -1,0 +1,27 @@
+﻿  createSnap.c
+C:\Users\User\source\repos\processProject\processProject\createSnap.c(15,70): warning C4133: '=': incompatible types - from 'SnapShot *' to 'ProcessDetails *'
+C:\Users\User\source\repos\processProject\processProject\createSnap.c(18,33): warning C4267: '=': conversion from 'size_t' to 'unsigned long', possible loss of data
+C:\Users\User\source\repos\processProject\processProject\createSnap.c(45,3): warning C4033: 'readProcessess' must return a value
+C:\Users\User\source\repos\processProject\processProject\createSnap.c(108,20): warning C4133: 'return': incompatible types - from 'ProcessDetails *' to 'SnapShot *'
+C:\Users\User\source\repos\processProject\processProject\createSnap.c(71,9): warning C4101: 'wDllName': unreferenced local variable
+C:\Users\User\source\repos\processProject\processProject\createSnap.c(72,8): warning C4101: 'regularCharArr': unreferenced local variable
+C:\Users\User\source\repos\processProject\processProject\createSnap.c(170,20): warning C4133: 'return': incompatible types - from 'ProcessDetails *' to 'DllNames *'
+C:\Users\User\source\repos\processProject\processProject\createSnap.c(173,101): warning C4028: formal parameter 3 different from declaration
+  main.c
+  saveNload.c
+C:\Users\User\source\repos\processProject\processProject\saveNload.c(62,18): warning C4047: '==': 'int' differs in levels of indirection from 'void *'
+C:\Users\User\source\repos\processProject\processProject\saveNload.c(64,11): warning C4047: 'return': 'SnapShot *' differs in levels of indirection from 'int'
+C:\Users\User\source\repos\processProject\processProject\saveNload.c(76,10): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\User\source\repos\processProject\processProject\saveNload.c(92,11): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\User\source\repos\processProject\processProject\saveNload.c(99,12): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\User\source\repos\processProject\processProject\saveNload.c(61,13): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  userResponse.c
+C:\Users\User\source\repos\processProject\processProject\userResponse.c(61,62): warning C4047: 'function': 'ProcessDetails *' differs in levels of indirection from 'int'
+C:\Users\User\source\repos\processProject\processProject\userResponse.c(61,55): warning C4024: 'mergeSnaps': different types for formal and actual parameter 3
+C:\Users\User\source\repos\processProject\processProject\userResponse.c(85,64): warning C4047: 'function': 'ProcessDetails *' differs in levels of indirection from 'int'
+C:\Users\User\source\repos\processProject\processProject\userResponse.c(85,57): warning C4024: 'mergeSnaps': different types for formal and actual parameter 3
+C:\Users\User\source\repos\processProject\processProject\userResponse.c(14,1): warning C4047: 'initializing': 'char' differs in levels of indirection from 'void *'
+  Generating Code...
+C:\Users\User\source\repos\processProject\processProject\createSnap.c(110): warning C4715: 'readProcessess': not all control paths return a value
+  userRespones.h
+  processProject.vcxproj -> C:\Users\User\source\repos\processProject\x64\Debug\processProject.exe
