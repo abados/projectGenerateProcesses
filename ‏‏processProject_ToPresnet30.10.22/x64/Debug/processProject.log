@@ -1,0 +1,52 @@
+﻿  generateHtml.c
+C:\Users\User\source\repos\processProject\processProject\generateHtml.c(40,15): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\User\source\repos\processProject\processProject\generateHtml.c(61,27): warning C4047: '=': 'char' differs in levels of indirection from 'void *'
+C:\Users\User\source\repos\processProject\processProject\generateHtml.c(77,54): warning C4020: 'changeDllTable': too many actual parameters
+C:\Users\User\source\repos\processProject\processProject\generateHtml.c(95,28): warning C4477: 'sprintf' : format string '%u' requires an argument of type 'unsigned int', but variadic argument 3 has type 'size_t'
+C:\Users\User\source\repos\processProject\processProject\generateHtml.c(95,28): message : consider using '%zu' in the format string
+C:\Users\User\source\repos\processProject\processProject\generateHtml.c(110,26): warning C4047: '=': 'char' differs in levels of indirection from 'void *'
+C:\Users\User\source\repos\processProject\processProject\generateHtml.c(113,53): warning C4047: '=': 'char' differs in levels of indirection from 'void *'
+C:\Users\User\source\repos\processProject\processProject\generateHtml.c(103,18): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+C:\Users\User\source\repos\processProject\processProject\generateHtml.c(141,26): warning C4047: '=': 'char' differs in levels of indirection from 'void *'
+C:\Users\User\source\repos\processProject\processProject\generateHtml.c(144,56): warning C4047: '=': 'char' differs in levels of indirection from 'void *'
+C:\Users\User\source\repos\processProject\processProject\generateHtml.c(134,18): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+C:\Users\User\source\repos\processProject\processProject\generateHtml.c(165,23): warning C4047: '=': 'char' differs in levels of indirection from 'void *'
+C:\Users\User\source\repos\processProject\processProject\generateHtml.c(181,26): warning C4047: '=': 'char' differs in levels of indirection from 'void *'
+C:\Users\User\source\repos\processProject\processProject\generateHtml.c(184,50): warning C4047: '=': 'char' differs in levels of indirection from 'void *'
+C:\Users\User\source\repos\processProject\processProject\generateHtml.c(177,18): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+C:\Users\User\source\repos\processProject\processProject\generateHtml.c(206,11): warning C4098: 'WRITE_SAMPLE_PAGES': 'void' function returning a value
+C:\Users\User\source\repos\processProject\processProject\generateHtml.c(228,37): warning C4477: 'sprintf' : format string '%u' requires an argument of type 'unsigned int', but variadic argument 4 has type 'SIZE_T'
+C:\Users\User\source\repos\processProject\processProject\generateHtml.c(228,37): message : consider using '%llu' in the format string
+C:\Users\User\source\repos\processProject\processProject\generateHtml.c(228,37): message : consider using '%Iu' in the format string
+C:\Users\User\source\repos\processProject\processProject\generateHtml.c(228,37): message : consider using '%I64u' in the format string
+C:\Users\User\source\repos\processProject\processProject\generateHtml.c(228,37): warning C4477: 'sprintf' : format string '%u' requires an argument of type 'unsigned int', but variadic argument 5 has type 'SIZE_T'
+C:\Users\User\source\repos\processProject\processProject\generateHtml.c(228,37): message : consider using '%llu' in the format string
+C:\Users\User\source\repos\processProject\processProject\generateHtml.c(228,37): message : consider using '%Iu' in the format string
+C:\Users\User\source\repos\processProject\processProject\generateHtml.c(228,37): message : consider using '%I64u' in the format string
+C:\Users\User\source\repos\processProject\processProject\generateHtml.c(228,37): warning C4477: 'sprintf' : format string '%u' requires an argument of type 'unsigned int', but variadic argument 6 has type 'SIZE_T'
+C:\Users\User\source\repos\processProject\processProject\generateHtml.c(228,37): message : consider using '%llu' in the format string
+C:\Users\User\source\repos\processProject\processProject\generateHtml.c(228,37): message : consider using '%Iu' in the format string
+C:\Users\User\source\repos\processProject\processProject\generateHtml.c(228,37): message : consider using '%I64u' in the format string
+C:\Users\User\source\repos\processProject\processProject\generateHtml.c(228,37): warning C4477: 'sprintf' : format string '%u' requires an argument of type 'unsigned int', but variadic argument 7 has type 'SIZE_T'
+C:\Users\User\source\repos\processProject\processProject\generateHtml.c(228,37): message : consider using '%llu' in the format string
+C:\Users\User\source\repos\processProject\processProject\generateHtml.c(228,37): message : consider using '%Iu' in the format string
+C:\Users\User\source\repos\processProject\processProject\generateHtml.c(228,37): message : consider using '%I64u' in the format string
+C:\Users\User\source\repos\processProject\processProject\generateHtml.c(232,38): warning C4477: 'sprintf' : format string '%u' requires an argument of type 'unsigned int', but variadic argument 4 has type 'SIZE_T'
+C:\Users\User\source\repos\processProject\processProject\generateHtml.c(232,38): message : consider using '%llu' in the format string
+C:\Users\User\source\repos\processProject\processProject\generateHtml.c(232,38): message : consider using '%Iu' in the format string
+C:\Users\User\source\repos\processProject\processProject\generateHtml.c(232,38): message : consider using '%I64u' in the format string
+C:\Users\User\source\repos\processProject\processProject\generateHtml.c(232,38): warning C4477: 'sprintf' : format string '%u' requires an argument of type 'unsigned int', but variadic argument 5 has type 'SIZE_T'
+C:\Users\User\source\repos\processProject\processProject\generateHtml.c(232,38): message : consider using '%llu' in the format string
+C:\Users\User\source\repos\processProject\processProject\generateHtml.c(232,38): message : consider using '%Iu' in the format string
+C:\Users\User\source\repos\processProject\processProject\generateHtml.c(232,38): message : consider using '%I64u' in the format string
+C:\Users\User\source\repos\processProject\processProject\generateHtml.c(232,38): warning C4477: 'sprintf' : format string '%u' requires an argument of type 'unsigned int', but variadic argument 6 has type 'SIZE_T'
+C:\Users\User\source\repos\processProject\processProject\generateHtml.c(232,38): message : consider using '%llu' in the format string
+C:\Users\User\source\repos\processProject\processProject\generateHtml.c(232,38): message : consider using '%Iu' in the format string
+C:\Users\User\source\repos\processProject\processProject\generateHtml.c(232,38): message : consider using '%I64u' in the format string
+C:\Users\User\source\repos\processProject\processProject\generateHtml.c(232,38): warning C4477: 'sprintf' : format string '%u' requires an argument of type 'unsigned int', but variadic argument 7 has type 'SIZE_T'
+C:\Users\User\source\repos\processProject\processProject\generateHtml.c(232,38): message : consider using '%llu' in the format string
+C:\Users\User\source\repos\processProject\processProject\generateHtml.c(232,38): message : consider using '%Iu' in the format string
+C:\Users\User\source\repos\processProject\processProject\generateHtml.c(232,38): message : consider using '%I64u' in the format string
+C:\Users\User\source\repos\processProject\processProject\generateHtml.c(273,12): warning C4098: 'WRITE_DLL_PAGES': 'void' function returning a value
+C:\Users\User\source\repos\processProject\processProject\generateHtml.c(23): warning C4715: 'SaveIntoFile': not all control paths return a value
+  processProject.vcxproj -> C:\Users\User\source\repos\processProject\x64\Debug\processProject.exe
